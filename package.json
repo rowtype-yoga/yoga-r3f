@@ -1,0 +1,17 @@
+{
+  "name": "purescript-yoga-r3f",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@react-three/drei": "^9.88.17",
+    "@react-three/fiber": "^8.15.11",
+    "@react-three/postprocessing": "^2.16.0",
+    "r3f-perf": "^7.1.2",
+    "three": ">=0.150.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  }
+}

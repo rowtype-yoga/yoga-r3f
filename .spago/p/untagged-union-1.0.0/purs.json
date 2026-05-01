@@ -1,0 +1,21 @@
+{
+  "name": "untagged-union",
+  "version": "1.0.0",
+  "license": "MIT",
+  "location": {
+    "githubOwner": "rowtype-yoga",
+    "githubRepo": "purescript-untagged-union"
+  },
+  "ref": "v1.0.0",
+  "dependencies": {
+    "either": ">=6.1.0 <7.0.0",
+    "foreign": ">=7.0.0 <8.0.0",
+    "foreign-object": ">=4.0.0 <5.0.0",
+    "literals": ">=1.0.2 <2.0.0",
+    "maybe": ">=6.0.0 <7.0.0",
+    "newtype": ">=5.0.0 <6.0.0",
+    "prelude": ">=6.0.0 <7.0.0",
+    "tuples": ">=7.0.0 <8.0.0",
+    "unsafe-coerce": ">=6.0.0 <7.0.0"
+  }
+}

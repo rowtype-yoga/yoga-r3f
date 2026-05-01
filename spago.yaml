@@ -1,0 +1,43 @@
+workspace:
+  packageSet:
+    registry: 73.2.0
+  extraPackages:
+    js-object:
+      git: https://github.com/purescript-codegen/purescript-js-object
+      ref: baba9598f114062dfaa4025b79eca0e06245a0c6
+      dependencies:
+        - aff
+        - contravariant
+        - effect
+        - foreign
+        - foreign-object
+        - heterogeneous
+        - newtype
+        - nullable
+        - partial
+        - prelude
+        - record
+        - typelevel-prelude
+        - unsafe-coerce
+        - unsafe-reference
+
+package:
+  name: yoga-r3f
+  dependencies:
+    - arraybuffer-types
+    - effect
+    - foreign
+    - foreign-object
+    - functions
+    - js-object
+    - prelude
+    - profunctor-lenses
+    - react-basic
+    - react-basic-dom
+    - react-basic-hooks
+    - typelevel-prelude
+    - untagged-union
+    - unsafe-coerce
+  test:
+    main: Test.Main
+    dependencies: []
