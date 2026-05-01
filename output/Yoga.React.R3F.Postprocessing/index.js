@@ -5,19 +5,22 @@ var vignette = /* #__PURE__ */ React_Basic.element($foreign.vignetteImpl);
 var noise = /* #__PURE__ */ React_Basic.element($foreign.noiseImpl);
 var effectComposer = /* #__PURE__ */ React_Basic.element($foreign.effectComposerImpl);
 var depthOfField = /* #__PURE__ */ React_Basic.element($foreign.depthOfFieldImpl);
+var chromaticAberration = /* #__PURE__ */ React_Basic.element($foreign.chromaticAberrationImpl);
 var bloom = /* #__PURE__ */ React_Basic.element($foreign.bloomImpl);
 export {
     effectComposerImpl,
     bloomImpl,
     depthOfFieldImpl,
     noiseImpl,
-    vignetteImpl
+    vignetteImpl,
+    chromaticAberrationImpl
 } from "./foreign.js";
 export {
     effectComposer,
     bloom,
     depthOfField,
     noise,
-    vignette
+    vignette,
+    chromaticAberration
 };
 //# sourceMappingURL=index.js.map

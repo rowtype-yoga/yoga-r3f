@@ -17,8 +17,12 @@ noise = element noiseImpl
 vignette :: forall props. { | props } -> JSX
 vignette = element vignetteImpl
 
+chromaticAberration :: forall props. { | props } -> JSX
+chromaticAberration = element chromaticAberrationImpl
+
 foreign import effectComposerImpl :: forall props. ReactComponent { | props }
 foreign import bloomImpl :: forall props. ReactComponent { | props }
 foreign import depthOfFieldImpl :: forall props. ReactComponent { | props }
 foreign import noiseImpl :: forall props. ReactComponent { | props }
 foreign import vignetteImpl :: forall props. ReactComponent { | props }
+foreign import chromaticAberrationImpl :: forall props. ReactComponent { | props }
