@@ -5,9 +5,6 @@ var trail = /* #__PURE__ */ React_Basic.element($foreign.trailImpl);
 var text = /* #__PURE__ */ React_Basic.element($foreign.textImpl);
 var stats = /* #__PURE__ */ React_Basic.element($foreign.statsImpl)({});
 var roundedBoxGeometry = /* #__PURE__ */ React_Basic.element($foreign.roundedBoxGeometryImpl);
-var perf = function () {
-    return React_Basic.element($foreign.perfImpl);
-};
 var outlines = /* #__PURE__ */ React_Basic.element($foreign.outlinesImpl);
 var lightformer = /* #__PURE__ */ React_Basic.element($foreign.lightformerImpl);
 var instances = /* #__PURE__ */ React_Basic.element($foreign.instancesImpl);
@@ -15,7 +12,6 @@ var instance_ = /* #__PURE__ */ React_Basic.element($foreign.instanceImpl);
 var html = /* #__PURE__ */ React_Basic.element($foreign.htmlImpl);
 var edges = /* #__PURE__ */ React_Basic.element($foreign.edgesImpl);
 export {
-    perfImpl,
     statsImpl,
     htmlImpl,
     textImpl,
@@ -28,7 +24,6 @@ export {
     lightformerImpl
 } from "./foreign.js";
 export {
-    perf,
     stats,
     html,
     text,
